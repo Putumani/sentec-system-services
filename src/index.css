@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@theme {
+  --color-sentec-blue: #1e3a8a;
+  --color-sentec-orange: #f97316;
+}
