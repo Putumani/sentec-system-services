@@ -15,13 +15,37 @@ const App = () => {
     { title: "Burglar Bars", items: ["Spanish Bars", "Clear View", "Custom Window Guards"], icon: "🛡️" },
   ];
 
-  const galleryImages = [
-    { id: 1, category: 'steelwork', title: 'Custom Burglar Bars', src: 'https://images.unsplash.com/photo-1622396481328-9b1b78cdd9fd?q=80&w=800' },
-    { id: 2, category: 'automation', title: 'Centurion D5 Installation', src: 'https://images.unsplash.com/photo-1558002038-1033186189a6?q=80&w=800' },
-    { id: 3, category: 'steelwork', title: 'Industrial Carport', src: 'https://images.unsplash.com/photo-1590674116340-994fa7523f38?q=80&w=800' },
-    { id: 4, category: 'automation', title: 'Garage Door Setup', src: 'https://images.unsplash.com/photo-1621905252507-b354bc2bad32?q=80&w=800' },
-    { id: 5, category: 'steelwork', title: 'Security Gate Fabrication', src: 'https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=800' },
-    { id: 6, category: 'automation', title: 'Electric Fence Energizer', src: 'https://images.unsplash.com/photo-1614935151651-0bea6508db6b?q=80&w=800' },
+ const galleryImages = [
+    { 
+      id: 1, 
+      category: 'steelwork', 
+      title: 'Custom Burglar Bars', 
+      src: '/custom-burglar-bar.jpg' 
+    },
+    { 
+      id: 2, 
+      category: 'automation', 
+      title: 'Centurion D3 Installation', 
+      src: '/centurion-d3.jpg' 
+    },
+    { 
+      id: 3, 
+      category: 'steelwork', 
+      title: 'Industrial Carport', 
+      src: '/carport.jpg' 
+    },
+    { 
+      id: 4, 
+      category: 'automation', 
+      title: 'Garage Door Setup', 
+      src: '/garage-door-setup.webp' 
+    },
+    { 
+      id: 5, 
+      category: 'steelwork', 
+      title: 'Security Gate Fabrication', 
+      src: '/gate-fab.png' 
+    }
   ];
 
   const filteredImages = filter === 'all' ? galleryImages : galleryImages.filter(img => img.category === filter);
@@ -86,7 +110,6 @@ const App = () => {
                 ></iframe>
               </div>
               
-              {/* Clickable Social Proof Badge */}
               <a 
                 href="https://web.facebook.com/sean.muringayi" 
                 target="_blank" 
@@ -104,7 +127,7 @@ const App = () => {
                     @sean.muringayi
                     </span>
                 </div>
-              </a>
+               </a>
             </div>
           </div>
 
